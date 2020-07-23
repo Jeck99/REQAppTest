@@ -1,0 +1,38 @@
+.Header {
+  box-sizing      : border-box;
+  width           : 100%;
+  display         : flex;
+  justify-content : flex-end;
+  background-color: rgb(243, 245, 246);
+  color           : rgb(167, 167, 167);
+  font-size       : 12px;
+  font-weight     : 700;
+
+  .Item {
+    margin: 12px;
+  }
+
+  .elementUserName {
+    border-left  : 1px solid gray;
+    padding-right: 7px;
+    padding-left : 7px;
+    padding-top  : 13px;
+
+    .userName {
+      color           : white;
+      background-color: #33a6d5;
+      border-radius   : 20.5px;
+      font-size       : 17px;
+    }
+  }
+
+  svg {
+    font-size    : 24px;
+    /* margin    : 7px; */
+    border-left  : 1px solid gray;
+    height       : 45px;
+    width        : 25px;
+    padding-right: 7px;
+    padding-left : 7px;
+  }
+}

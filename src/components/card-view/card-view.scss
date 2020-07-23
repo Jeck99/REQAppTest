@@ -1,0 +1,102 @@
+.cardWrapper {
+    width  : 100%;
+    display: flex;
+    margin : 4px;
+    flex   : 0 1 calc(20% - 8px);
+
+    p {
+        margin: 1px;
+    }
+}
+
+.cards {
+    color     : rgb(139, 139, 139);
+    padding   : 1rem;
+    margin    : 10px;
+    /* flex   : 1 1; */
+    background: white;
+    width     : 100%;
+
+    a {
+        text-decoration-line: none;
+        text-decoration     : none;
+
+        .CardDetails {
+            display  : flex;
+            flex-flow: wrap;
+
+            h1 {
+                font-size  : 17px;
+                font-weight: normal;
+            }
+
+            .TradeName {
+                color : #1c95c3;
+                margin: 0;
+                width : 100%;
+            }
+
+            .Status {
+                color        : white;
+                background   : #8e8e8e;
+                width        : fit-content;
+                border-radius: 4.1px;
+                display      : inline-block;
+                max-width    : 55%;
+                min-width    : fit-content;
+            }
+
+            .Contract {
+                display        : flex;
+                justify-content: space-around;
+                margin-left    : 12px;
+
+            }
+
+            .Company {
+                display        : flex;
+                justify-content: space-around;
+
+                p {
+                    margin-left: 23px;
+                    width      : 50%;
+                }
+            }
+
+            .ContractValue {
+                display        : flex;
+                justify-content: space-around;
+
+                p {
+                    margin-left: 27px;
+                    width      : 50%;
+                }
+            }
+        }
+
+        .infoReq {
+            display        : flex;
+            flex-flow      : row;
+            justify-content: space-between;
+
+            h2 {
+                margin: 0;
+            }
+
+            i.button-link {
+                color          : #03a9f4;
+                text-decoration: none;
+                font-style     : normal;
+            }
+        }
+    }
+
+}
+
+img {
+    width: 100%
+}
+
+.aColor {
+    color: #f7931a
+}

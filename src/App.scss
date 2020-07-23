@@ -1,0 +1,17 @@
+.App {
+  background-color: rgb(243, 245, 246);
+
+  hr {
+    margin: 0;
+  }
+
+  .MainView {
+    margin-left: 50px;
+
+    .cardsCont {
+      display  : flex;
+      flex-flow: row wrap;
+      position : relative;
+    }
+  }
+}

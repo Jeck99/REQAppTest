@@ -1,0 +1,38 @@
+table {
+    border-collapse : collapse;
+    width           : 100%;
+    background-color: white;
+
+    thead {
+        background-color: aliceblue;
+    }
+
+    th,
+    td {
+        padding      : 8px;
+        text-align   : center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody {
+        color: rgb(104, 104, 104);
+        .trade-td.tradeName {
+            color: #03a9f4;
+        }
+        .trade-td.status {
+            color: #ffffff;
+            border-radius: 29px;
+            background-color: #5a6373;            
+        }
+        i.button-link {
+            color: #03a9f4;
+            text-decoration: none;
+            font-style: normal;
+        }
+    }
+
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+}
